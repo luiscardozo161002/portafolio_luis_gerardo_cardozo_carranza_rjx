@@ -1,0 +1,150 @@
+.redondear{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.borde{
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.vercompleto{
+    width: 100%;
+}
+
+.efecto-js :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#F7DF1D;
+}
+
+.efecto-php :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#6E78A8;
+}
+
+.efecto-python-azul :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#316897;
+}
+
+.efecto-python-amarillo :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#F2D960;
+}
+
+.efecto-shell :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#E2E1DF;
+}
+
+.efecto-html :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#FF8000;
+}
+
+.efecto-java :hover{
+    transition: all 0.1s ease-in-out;
+    background-color:#F89B24;
+}
+
+
+
+
+
+.flotar-html{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 3.3s ease-in-out infinite;
+}
+
+.flotar-js{
+    position: absolute;
+    bottom: 80px;
+    left: 25px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 4.8s ease-in-out infinite;
+}
+
+.flotar-css{
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 4.8s ease-in-out infinite;
+}
+
+.flotar-expjs{
+    position: absolute;
+    bottom: 125px;
+    left: 255px;
+    width: 40px;
+    height: auto;
+    animation: flotacion 4.7s ease-in-out infinite;
+}
+
+.flotar-node{
+    position: absolute;
+    bottom: 76px;
+    left: 245px;
+    width: 40px;
+    height: auto;
+    animation: flotacion 4.7s ease-in-out infinite;   
+}
+
+.flotar-react{
+    position: absolute;
+    bottom: 25px;
+    left: 264px;
+    width: 60px;
+    height: auto;
+    animation: flotacion 4.7s ease-in-out infinite;   
+}
+
+.flotar-laravel{
+    position: absolute;
+    bottom: 145px;
+    left: 75px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 3s ease-in-out infinite;   
+}
+
+.flotar-java{
+    position: absolute;
+    bottom: 150px;
+    left: 135px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 4.9s ease-in-out infinite;   
+}
+
+.flotar-shell{
+    position: absolute;
+    bottom: 145px;
+    left: 195px;
+    width: 30px;
+    height: auto;
+    animation: flotacion 4s ease-in-out infinite;   
+}
+
+@keyframes flotacion {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Ajusta la altura del movimiento */
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
+.card{
+    background: repeat scroll center / auto url('../../images/fondocuadros.svg')
+}
